@@ -16,7 +16,7 @@ public class Employee {
     public Employee(String name, String department, List<Project> projects) {
         this.name = name;
         this.department = department;
-        this.projects = new ArrayList<>();
+        this.projects = projects;
     }
 
     public String getName() {
