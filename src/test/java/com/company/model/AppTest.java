@@ -1,4 +1,4 @@
-package com.tracker;
+package com.company.model;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

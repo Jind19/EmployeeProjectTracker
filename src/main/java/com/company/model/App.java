@@ -1,4 +1,4 @@
-package com.tracker;
+package com.company.model;
 
 /**
  * Hello world!
