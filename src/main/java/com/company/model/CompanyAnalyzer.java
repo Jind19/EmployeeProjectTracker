@@ -11,7 +11,7 @@ public class CompanyAnalyzer {
      * Flattens the list of projects from a list of employees.
      * List<Employee> employees; // Each employee has a List<Project> projects.
      */
-    public List<Project> getAllProjeccts(List<Employee> employees) {
+    public List<Project> getAllProjects(List<Employee> employees) {
         return employees.stream()
                 .flatMap(employee -> employee.getProjects().stream())
                 .collect(Collectors.toList());
